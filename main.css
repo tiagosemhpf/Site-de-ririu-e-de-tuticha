@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+body, input, textarea {
+    font-family: 'Open Sans', sans-serif;
+    color: #402A10;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #BFA77A;
+    color: #402A10;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+color: #402A10;
+text-decoration: none;
+}
+
+.container {
+    max-width: 1280;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.sorakas img,
+.ashes img {
+    height: 100px;
+}
+
+.sorakas li,
+.ashes li {
+    display: inline;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.soraka-sozinha,
+.ashe-sozinha {
+    margin-right: 32px;
+    height: 300px;
+}
+
+.social-link img {
+    height: 24px;
+}
+
+.social-link li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-link li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #402A10;
+    color: #BFA77A;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #735F3C;
+    color: #402718;
+}
+
+input:focus, textarea:focus {
+outline-color: #402A10;
+}
+
+section h4 {
+    font-size: 12px;
+}
+
+footer {
+    color: #402718;
+    background-color: #BFA77A;
+    padding: 16px 0;
+}
+
+.contato-inic h2 {
+    color: #402718;
+    background-color: #BFA77A;
+    padding: 16px 0;  
+}
