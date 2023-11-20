@@ -43,7 +43,7 @@ header .container,
 section .container {
     display: flex;
     align-items: center;
-    justify-content: space-around
+    justify-content: space-between;
 }
 
 .sorakas img,
@@ -142,4 +142,5 @@ footer {
     color: #402718;
     background-color: #BFA77A;
     padding: 16px 0;
+    text-align: center;
 }
